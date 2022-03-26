@@ -1,18 +1,19 @@
-import React from 'react'
-import StarRating from './StarRating'
+import React from "react";
+import { Link } from "react-router-dom";
+import StarRating from "./StarRating";
 
-const MovieCard = ({movie}) => {
-    const {rating,name,date,image}=movie
+const MovieCard = ({ movie }) => {
+  const { rating, name, date, image } = movie;
   return (
-    <div className='movie-card'>
-  <StarRating rating={rating} />
-    <img src={image} alt="" />
-    <h3> {name} </h3>
-    <h3> {date} </h3>
-    </div>
-  )
-}
+    <Link to={`/movie/${movie.id}`}>
+      <div className="movie-card">
+        <StarRating rating={rating} />
+        <img src={image} alt="" />
+        <h3> {name} </h3>
+        <h3> {date} </h3>
+      </div>
+    </Link>
+  );
+};
 
-
-
-export default MovieCard
+export default MovieCard;
