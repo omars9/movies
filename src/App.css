@@ -16,7 +16,7 @@ body {
 
 .header-container {
   color: white;
-  background: darkred;
+  background: rgb(0, 139, 132);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -24,7 +24,9 @@ body {
   padding: 1rem;
   box-shadow: 5px 2px 16px 3px rgb(0 0 0 / 12%);
 }
-
+.Nom {
+  color: rgb(2, 47, 58);
+}
 .search-container {
   display: flex;
   /* width:80%; */
@@ -36,7 +38,7 @@ body {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(194, 236, 234);
   border-radius: 4px;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .movie-card {
   border-radius: 6px;
-  background: darkred;
+  background: rgb(1, 102, 109);
   position: relative;
   margin: 1rem;
   width: 350px;
@@ -66,7 +68,7 @@ body {
 
 .movie-card > h3,
 .movie-card > p {
-  color: black;
+  color: rgb(172, 207, 216);
   padding: 0.5rem;
 }
 
@@ -74,7 +76,7 @@ body {
 
 form {
   border-radius: 6px;
-  background-color: darkred;
+  background-color: rgb(6, 112, 112);
   font-size: 20px;
   width: calc(100vw / 1.8);
   margin: auto;
@@ -101,7 +103,7 @@ form > label {
   margin: 15px;
   cursor: pointer;
   border-radius: 4px;
-  background: red;
+  background: rgb(62, 116, 138);
   width: 100px;
   border: 0.5px solid rgba(0, 0, 0, 0.37);
   padding: 0.5rem 1rem;
@@ -109,12 +111,12 @@ form > label {
 
 .btn-danger {
   color: white;
-  background: darkred;
+  background: rgb(51, 216, 228);
 }
 
 .btn-primary {
   color: white;
-  background: darkred;
+  background: rgb(76, 241, 253);
 }
 
 .add-movie-btn {

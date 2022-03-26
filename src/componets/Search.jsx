@@ -4,7 +4,7 @@ import StarRating from "./StarRating";
 const Search = ({ search, handleChange, rating, handleRating }) => {
   return (
     <div className="header-container">
-      <h1>Our movie app</h1>
+      <h1 className="Nom">Our movie app</h1>
       <div className="search-container">
         <form action="">
           <input type="text" value={search} onChange={handleChange} />
